@@ -8,7 +8,7 @@ const C = {
   fecha: "2026-12-24T15:00:00-06:00",
 
   // true muestra la hora en los detalles de la reunión.
-  mostrarHora: true,
+  mostrarHora: false,
 
   whatsappElecciones: "50255414482",
 
