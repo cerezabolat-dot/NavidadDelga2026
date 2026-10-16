@@ -13,7 +13,7 @@ const C = {
   whatsappElecciones: "50255414482",
 
   mensaje:
-    "Como hace muchos años, nos reunimos para celebrar, recordar y compartir. Hay historias que solo tienen sentido cuando estamos juntos. Esta Navidad, volvamos a encontrarnos."
+    "Como hace 31 años, nos reunimos para celebrar, recordar y compartir. Hay historias que solo tienen sentido cuando estamos juntos. Esta Navidad, volvamos a encontrarnos."
 };
 
 const CONTACTO_ESTUDIO = "50250440667";
