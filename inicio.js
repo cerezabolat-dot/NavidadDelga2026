@@ -49,7 +49,7 @@ const NAVIDADES = [
       "Renos, bosque invernal, tonos café y detalles rojos.",
     elemento: "El bosque de los renos",
     imagen: "referencia renos.png",
-    reservada: false,
+    reservada: true,
     tribu: ""
   },
   {
