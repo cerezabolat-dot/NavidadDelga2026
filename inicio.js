@@ -73,7 +73,7 @@ const NAVIDADES = [
       "Partituras, campanas, velas y vestuario de coro clásico.",
     elemento: "Melodías de Navidad",
     imagen: "referencia villancicos.png",
-    reservada: false,
+    reservada: true,
     tribu: ""
   },
   {
