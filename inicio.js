@@ -37,7 +37,7 @@ const NAVIDADES = [
       "Estrella de Belén, pesebre y vestimenta antigua.",
     elemento: "La estrella de Belén",
     imagen: "referencia nacimiento de Jesús.png",
-    reservada: false,
+    reservada: true,
     tribu: ""
   },
   {
