@@ -1466,3 +1466,73 @@ footer span {
   background: #294c38;
   color: #f3ebd8;
 }
+/* ===== VOLVER SIEMPRE VISIBLE EN VESTIMENTA ===== */
+#outfit-dialog .dialog-inner > .back {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  display: block;
+  width: 100%;
+  min-height: 54px;
+  margin: 0 0 20px;
+  padding: 14px 18px;
+
+  background: var(--red);
+  color: var(--cream);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+
+  font-family: var(--body);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+
+  box-shadow: 0 4px 12px #0003;
+}
+#outfit-dialog .dialog-inner > .back {
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+  width: fit-content;
+  padding: 10px 16px;
+  background: var(--red);
+  color: var(--cream);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+}
+
+.christmas-reference {
+  font-weight: 700 !important;
+  font-style: normal;
+}
+/* ===== ANIMACIÓN DEL BOTÓN VOLVER ===== */
+#outfit-dialog .dialog-inner > .back {
+  transition: background 0.3s, transform 0.2s;
+  animation: brilloVolver 3s ease-in-out infinite;
+}
+
+@keyframes brilloVolver {
+  0%, 100% {
+    box-shadow: 0 0 0 transparent;
+  }
+  50% {
+    box-shadow: 0 0 14px #c9a35c66;
+  }
+}
+
+#outfit-dialog .dialog-inner > .back:hover {
+  background: #7b2530;
+}
+
+#outfit-dialog .dialog-inner > .back:active {
+  transform: scale(0.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #outfit-dialog .dialog-inner > .back {
+    animation: none;
+    transition: none;
+  }
+}
