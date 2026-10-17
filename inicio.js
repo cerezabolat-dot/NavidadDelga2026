@@ -843,6 +843,11 @@ function iniciarInvitacion() {
           // Después de confirmar, cambia reservada a true.
         });
       }
+       /* Nacimiento de Jesús: bloquear sin tachar el título */
+if (navidad.id === "nacimiento") {
+  const titulo = contenido.querySelector(".christmas-title");
+  titulo.style.textDecoration = "none";
+}
 
       tarjeta.append(arte, contenido);
       fragmento.appendChild(tarjeta);
