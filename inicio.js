@@ -13,7 +13,7 @@ const C = {
   whatsappElecciones: "50255414482",
 
   mensaje:
-    "Como hace 31 años, nos reunimos para celebrar, recordar y compartir. Hay historias que solo tienen sentido cuando estamos juntos. Esta Navidad, volvamos a encontrarnos."
+    "31 años de historia, hemos crecido, llorado y reído, pero el lazo de la familia permanece intacto. Que los años pasen y que nunca nos falte el regalo más valioso, tenernos unos a otros."
 };
 
 const CONTACTO_ESTUDIO = "50250440667";
