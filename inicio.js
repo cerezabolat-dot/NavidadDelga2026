@@ -61,7 +61,7 @@ const NAVIDADES = [
       "Duendes, regalos, nieve y acentos verdes y rojos.",
     elemento: "El taller del Polo Norte",
     imagen: "Referencia polo norte.png",
-    reservada: false,
+    reservada: true,
     tribu: ""
   },
   {
