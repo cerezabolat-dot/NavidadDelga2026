@@ -96,7 +96,7 @@ const NAVIDADES = [
     referencia:
       "Fotografías familiares, álbumes, cartas y objetos con historia.",
     elemento: "Nuestro álbum familiar",
-    imagen: "./imagenes/referencia-delga.jpg",
+    imagen: "referencia delga.png",
     reservada: false,
     tribu: ""
   }
